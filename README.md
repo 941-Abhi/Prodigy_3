@@ -100,15 +100,6 @@ Edit `src/data/products.ts` to add new products:
 ### Styling
 The project uses Tailwind CSS for styling. Customize colors and themes in `tailwind.config.js`.
 
-### Routing
-Add new routes in `src/App.tsx`:
-
-```typescript
-<Route path="/new-page" element={<NewPage />} />
-```
-
-
-
 ## License
 
 This project is licensed under the MIT License.
