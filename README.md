@@ -27,32 +27,6 @@ A modern, responsive e-commerce website built with React, TypeScript, and Tailwi
 - Node.js (version 16 or higher)
 - npm or yarn
 
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd project
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
-```
-
-4. Open your browser and navigate to `http://localhost:3000`
-
-### Available Scripts
-
-- `npm start` - Start the development server
-- `npm build` - Build the project for production
-- `npm test` - Run tests
-- `npm eject` - Eject from Create React App (not recommended)
 
 ## Project Structure
 
@@ -133,29 +107,7 @@ Add new routes in `src/App.tsx`:
 <Route path="/new-page" element={<NewPage />} />
 ```
 
-## Deployment
 
-### Build for Production
-```bash
-npm run build
-```
-
-### Deploy to Netlify
-1. Connect your repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `build`
-
-### Deploy to Vercel
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
 
 ## License
 
