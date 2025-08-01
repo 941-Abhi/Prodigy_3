@@ -1,4 +1,4 @@
-# Local Store E-commerce Website
+# 🛒 Local Store E-commerce Website
 
 A modern, responsive e-commerce website built with React, TypeScript, and Tailwind CSS. This platform enables customers to browse and purchase products online with a beautiful, user-friendly interface.
 
