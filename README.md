@@ -25,7 +25,7 @@ A modern, responsive e-commerce website built with React, TypeScript, and Tailwi
 ### Prerequisites
 
 - Node.js (version 16 or higher)
-- npm or yarn
+- npm 
 
 
 ## Project Structure
@@ -51,6 +51,29 @@ src/
 ├── index.tsx          # Application entry point
 └── index.css          # Global styles and Tailwind imports
 ```
+
+🚀 Getting Started
+✅ Prerequisites
+Install Node.js (version 16 or higher)
+
+Make sure npm is installed (comes with Node)
+
+📥 Installation Steps
+Clone the Repository
+
+git clone https://github.com/941-Abhi/Prodigy_3.git
+Navigate to the Project Folder
+cd Prodigy_3
+
+Install Dependencies
+npm install
+
+Start the Development Server
+npm run dev
+✨ How to Use
+Open your browser and go to http://localhost:5173
+
+Browse products, add to cart, and enjoy the local store experience!
 
 ## Features in Detail
 
@@ -78,32 +101,8 @@ src/
 - Touch-friendly interface
 - Fast loading times
 
-## Customization
-
-### Adding Products
-Edit `src/data/products.ts` to add new products:
-
-```typescript
-{
-  id: 'unique-id',
-  name: 'Product Name',
-  description: 'Product description',
-  price: 19.99,
-  image: 'image-url',
-  category: 'Category',
-  inStock: true,
-  rating: 4.5,
-  reviews: 123
-}
-```
-
 ### Styling
 The project uses Tailwind CSS for styling. Customize colors and themes in `tailwind.config.js`.
 
 ## License
-
 This project is licensed under the MIT License.
-
-## Support
-
-For support or questions, please open an issue in the repository. 
